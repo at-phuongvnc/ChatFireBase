@@ -1,0 +1,86 @@
+{
+  "users": {
+    "haipt": {
+      "friends": [
+        {
+          "name": "huyenntt",
+          "converid": 2
+        },
+        {
+          "name": "khangpm",
+          "converid": 1
+        },
+        {
+          "name": "khoipm"
+        }
+      ]
+    },
+    "huyenntt": {
+      "friends": [
+        {
+          "name": "haipt",
+          "converid": 2
+        },
+        {
+          "name": "khangpm"
+        }
+      ]
+    },
+    "khangpm": {
+      "friends": [
+        {
+          "name": "haipt",
+          "converid": 1
+        }
+      ]
+    },
+    "khoipm": {
+      "friends": [
+        {
+          "name": "haipt"
+        },
+        {
+          "name": "khangpm"
+        }
+      ]
+    }
+  },
+  "convers": {
+    "1": [
+      {
+        "id": 1,
+        "text": "Hey person!",
+        "senderName": "haipt",
+        "time": ""
+      },
+      {
+        "id": 2,
+        "text": "Hey person!",
+        "senderName": "khangpm",
+        "time": ""
+      }
+    ],
+    "2": [
+      {
+        "text": "Chao HuyenNTT!",
+        "senderName": "haipt",
+        "time": ""
+      },
+      {
+        "text": "Oh, Chao HaiPT",
+        "senderName": "huyenntt",
+        "time": ""
+      },
+      {
+        "text": "Anh Có Yêu Em Ko?",
+        "senderName": "huyenntt",
+        "time": ""
+      },
+      {
+        "text": "Tất nhiên là có rồi, hỏi ngu thế!",
+        "senderName": "haipt",
+        "time": ""
+      }
+    ]
+  }
+}
